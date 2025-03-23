@@ -1,0 +1,157 @@
+@media only screen and (max-width: 880px) {
+
+    .font-size-1 {
+        font-size: 30px;
+    }
+    .font-size-2 {
+        font-size: 28px;
+    }
+    .font-size-3 {
+        font-size: 24px;
+    }
+    .font-size-4 {
+        font-size: 20px;
+    }
+    .font-size-5 {
+        font-size: 16px;
+    }
+    .font-size-6 {
+        font-size: 14px;
+    }
+
+    .decorative-line {
+        height: 25px;
+    }
+
+
+    .projects {
+        padding: 0px 25px;
+    }
+    .projects>.decorative-line{
+        display: none;
+    }
+    .projects>* {
+        margin: 100px auto;
+    }
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+    .project>* {
+        margin-top: 15px;
+    }
+    .project>img {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .project-element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-element > button {
+        margin-top: 38px;
+        position: unset;
+    }
+    .project-hr {
+        margin: 75px auto;
+    }
+    .projects>section>a {
+        position: unset;
+        text-align: center;
+    }
+    .projects>section>a>h3 {
+        padding-top: 50px;
+    }
+
+
+    .about {
+        margin: 100px 0 50px
+    }
+    .about>article {
+        width: 75vw;
+    }
+    .about>aside {
+        display: none;
+    }
+
+
+    .contact {
+        margin: 75px auto 100px;
+    }
+
+
+    footer {
+        background-color: #999;
+        color: #fff;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .name-in-footer {
+        font-weight: 600;
+        text-decoration: underline;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        background-position: left -45vw bottom -25vw;
+        background-size: 170%;
+    }
+    .hero-header {
+        left: 10%;
+        top: 25%;
+        width: 200px;
+    }
+    .hero-quote {
+        right: 10%;
+        top: 45%;
+        width: 200px;
+    }
+    .hero>nav {
+        right: 10%;
+        top: 10%;
+    }
+    .hero>.decorative-line:first-of-type {
+        left: 10%;
+        top: 10%;
+    }
+    .hero>.decorative-line {
+        right: 10%;
+        top: 60%;
+    }
+
+    .contact-nav {
+        height: 40px;
+        width: 40px;
+        padding: 0 5px;
+        background-size: contain;
+    }
+
+    .project-element>img {
+        width: 70%;
+        height: auto;
+    }
+
+
+    .about>.decorative-line {
+        display: none;
+    }
+    
+
+    .contact>article {
+        justify-content: center;
+        height: 100px;
+    }
+    .contact>article>section {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero>.decorative-line:first-of-type {
+        top: 18%;
+    }
+}

@@ -1,0 +1,104 @@
+.hero {
+    background-image: linear-gradient(#115ACB, #163266);
+    background-position: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    padding-top: 20px;
+    height: 100vh;
+}
+.hero>* {
+    position: unset;
+}
+.hero>img {
+    margin-left: 200px;
+    width: 30vw;
+}
+.hero>header {
+    margin-right: 200px;
+    padding: 100px;
+}
+.hero>header>h1 {
+    margin-bottom: 15px;
+}
+.hero>.decorative-line {
+    position: absolute;
+    right: 300px;
+    top: 75%;
+    width: unset;
+}
+
+.back-button {
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#projects-container>a {
+    padding-bottom: 50px;
+}
+.project-element {
+    margin: 75px 0;
+}
+.project-element:first-of-type, .project-element:last-of-type {
+    margin: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+    .hero>img {
+        margin-left: 100px;
+    }
+    .hero>header {
+        margin-right: 100px;
+    }
+
+    .hero>.decorative-line {
+        top: 80%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .hero {
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    .hero>img {
+        margin-left: 0;
+        width: 50vw;
+    }
+    .hero>header {
+        margin-right: 0;
+        padding: 0 150px;
+    }
+    .hero>.decorative-line {
+        display: none;
+    }
+
+    .back-button {
+        top: 50px;
+        left: 50px;
+    }
+
+    .project-element>img {
+        margin-bottom: 25px;
+        width: 20vw;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        padding-top: 200px;
+    }
+    .project-element>img {
+        margin-bottom: 25px;
+        width: 40%;
+        height: auto;
+    }
+    .hero>header {
+        padding: 0 75px;
+    }
+}
