@@ -131,6 +131,9 @@ h3 {
     position: relative;
     padding-bottom: 100px;
 }
+.project-element>article>section>h3 {
+    margin-bottom: 10px;
+}
 .project-element > article > button {
     position: absolute;
     right: 5%;

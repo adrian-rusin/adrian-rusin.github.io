@@ -1,8 +1,8 @@
 const projects = [
     {
         img: "images/projects-images/google-maps-api/tets-app-showcase.png",
-        title: "Google Map API app",
-        description: "An application that allows you to search restaurants in the surrounding area.<br><br>I implemented Google Maps API and Google Places API to allow users to search for places and find restaurants by category.",
+        title: "Google Map API App",
+        description: "Food Nearby is a Flutter-based mobile application that helps users discover nearby restaurants using the Google Maps and Places APIs.<br><br>The app retrieves a list of restaurants directly from Google Places, displaying them on an interactive map.<br><br>This project served as a hands-on opportunity to refine my skills in Flutter development, state management, and location-based services.",
         buttonLink: "project.html"
     },
     {

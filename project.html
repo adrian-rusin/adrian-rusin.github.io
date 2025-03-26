@@ -18,11 +18,11 @@
         <a href="javascript:history.back()" class="back-button"><img src="images/icons/arrow_back_white.png"></a>
         <img src="images/projects-images/google-maps-api/tets-app-showcase.png">
         <header>
-            <h1 class="font-size-1">Google Map API app</h1>
+            <h1 class="font-size-1">Google Map API App</h1>
             <p class="font-size-5">
-                An application that allows you to search restaurants in surrounding. <br><br>
-
-                I implemented Google Maps API and Google Places API to allow to search places and find restaurants by categories.</p>
+                Food Nearby is a Flutter-based mobile application that helps users discover nearby restaurants using the Google Maps and Places APIs.<br><br>
+                The app retrieves a list of restaurants directly from Google Places, displaying them on an interactive map.<br><br>
+                This project served as a hands-on opportunity to refine my skills in Flutter development, state management, and location-based services.
         </header>
         <img src="images/decorative-line-white.png" class="decorative-line">
     </section>
@@ -31,14 +31,17 @@
         <h2 class="font-size-1">App description</h2>
         <section id="projects-container">
             <article class="project-element">
-                <img src="images/telefonik.png" alt="Firebase backend implementation image">
+                <img src="images/projects-images/google-maps-api/google_maps_api_integration.png" alt="Google Maps API Integration image">
                 <span style="width: 50px;"></span>
                 <article>
                     <section>
-                        <h3 class="font-size-3">Firebase backend implementation</h3>
+                        <h3 class="font-size-3">Google Maps API Integration</h3>
                         <p class="font-size-5">
-                            An application that allows you to search restaurants in surrounding.<br>
-                            I implemented Google Maps API and Google Places API to allow to search places and find restaurants by categories.
+                            Integrated Google Maps and Places APIs to fetch and display restaurant locations.<br><br>
+
+                            Implemented interactive map markers to visualize restaurant locations.<br><br>
+
+                            Handled API responses efficiently, ensuring accurate location-based results.
                         </p>
                     </section>
                 </article>
@@ -46,25 +49,31 @@
             <article class="project-element">
                 <article>
                     <section>
-                        <h3 class="font-size-3">Firebase backend implementation</h3>
+                        <h3 class="font-size-3">Location-Based Search & Filtering</h3>
                         <p class="font-size-5">
-                            An application that allows you to search restaurants in surrounding.<br>
-                            I implemented Google Maps API and Google Places API to allow to search places and find restaurants by categories.
+                            Used Google Places API to fetch a limited list of nearby restaurants.<br><br>
+
+                            Allowed users to search for restaurants in different cities, retrieving data from Google's database.<br><br>
+
+                            Implemented category-based filtering to display only specific types of restaurants.
                         </p>
                     </section>
                 </article>
                 <span style="width: 50px;"></span>
-                <img src="images/telefonik.png" alt="Firebase backend implementation image">
+                <img src="images/projects-images/google-maps-api/location-based_search_&_filtering.png" alt="Location-Based Search & Filtering image">
             </article>
             <article class="project-element">
-                <img src="images/telefonik.png" alt="Firebase backend implementation image">
+                <img src="images/projects-images/google-maps-api/state_management_with_provider.png" alt="State Management with Provider image">
                 <span style="width: 50px;"></span>
                 <article>
                     <section>
-                        <h3 class="font-size-3">Firebase backend implementation</h3>
+                        <h3 class="font-size-3">State Management with Provider</h3>
                         <p class="font-size-5">
-                            An application that allows you to search restaurants in surrounding.<br>
-                            I implemented Google Maps API and Google Places API to allow to search places and find restaurants by categories.
+                            Used the Provider package to manage state efficiently, ensuring smooth UI updates.<br><br>
+
+                            Prevented unnecessary re-renders when updating search results and map markers.<br><br>
+
+                            Optimized data fetching to maintain app performance and responsiveness.
                         </p>
                     </section>
                 </article>
@@ -93,5 +102,54 @@
     <footer>
         <p class="font-size-6">©2025 Designed and developed by <a href="" class="name-in-footer">Adrian Rusin</a></p>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function adjustProjectElements() {
+                const elements = document.querySelectorAll(".project-element");
+        
+                elements.forEach((element, index) => {
+                    const img = element.querySelector("img");
+                    const textContainer = element.querySelector("article"); // The article wrapping the text
+                    const spacer = element.querySelector("span"); // The spacer between text and image
+        
+                    if (!img || !textContainer) return;
+        
+                    if (window.innerWidth <= 880) {
+                        // Move image above text (before the textContainer)
+                        if (img.nextElementSibling !== textContainer) {
+                            element.insertBefore(img, textContainer);
+                        }
+        
+                        // Ensure spacer is removed for mobile view
+                        if (spacer) spacer.style.display = "none";
+                    } else {
+                        // Restore alternating layout for larger screens
+                        if (index % 2 === 0) {
+                            // Even index: Image on left
+                            if (img.nextElementSibling !== spacer) {
+                                element.insertBefore(img, spacer);
+                            }
+                        } else {
+                            // Odd index: Image on right
+                            if (textContainer.nextElementSibling !== spacer) {
+                                element.insertBefore(spacer, textContainer);
+                                element.appendChild(img);
+                            }
+                        }
+        
+                        // Restore spacer visibility for larger screens
+                        if (spacer) spacer.style.display = "inline-block";
+                    }
+                });
+            }
+        
+            // Run on page load and window resize
+            adjustProjectElements();
+            window.addEventListener("resize", adjustProjectElements);
+        });
+        
+        
+    </script>
 </body>
 </html>

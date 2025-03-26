@@ -82,6 +82,10 @@
         left: 50px;
     }
 
+    .project-element {
+        margin: 0;
+    }
+
     .project-element>img {
         margin-bottom: 25px;
         width: 20vw;
