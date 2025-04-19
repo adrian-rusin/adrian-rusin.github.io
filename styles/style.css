@@ -12,6 +12,9 @@ h2 {
 h3 {
     font-weight: 400;
 }
+strong {
+    font-weight: 400;
+}
 
 
 .font-size-1 {
@@ -44,7 +47,7 @@ h3 {
     width: 100%;
     height: 100vh;
     background-color: white;
-    background-image: url("images/telefoniki.png");
+    background-image: url("../images/telefoniki.png");
     background-repeat: no-repeat;
     background-position: left -30vw bottom -30vw;
     background-size: 120%;
@@ -85,22 +88,22 @@ h3 {
 }
 .email-icon {
     width: 60px !important;
-    background-image: url("images/icons/navigation-icons/email-logo.png");
+    background-image: url("../images/icons/navigation-icons/email-logo.png");
 }
 .linkedin-icon {
-    background-image: url("images/icons/navigation-icons/linkedin-logo.png");
+    background-image: url("../images/icons/navigation-icons/linkedin-logo.png");
 }
 .fiverr-icon {
-    background-image: url("images/icons/navigation-icons/fiverr-logo.png");
+    background-image: url("../images/icons/navigation-icons/fiverr-logo.png");
 }
 .email-icon:hover {
-    background-image: url("images/icons/navigation-icons/hover-variants/email-logo-hover.png");
+    background-image: url("../images/icons/navigation-icons/hover-variants/email-logo-hover.png");
 }
 .linkedin-icon:hover {
-    background-image: url("images/icons/navigation-icons/hover-variants/linkedin-logo-hover.png");
+    background-image: url("../images/icons/navigation-icons/hover-variants/linkedin-logo-hover.png");
 }
 .fiverr-icon:hover {
-    background-image: url("images/icons/navigation-icons/hover-variants/fiverr-logo-hover.png");
+    background-image: url("../images/icons/navigation-icons/hover-variants/fiverr-logo-hover.png");
 }
 
 
