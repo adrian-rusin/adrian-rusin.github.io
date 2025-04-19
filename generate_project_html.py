@@ -16,24 +16,26 @@ def parse_content(content):
                 current_section = line[:-1]
                 sections[current_section] = ""
             else:
-                if current_section == "Title" or current_section == "Images Path":
+                if current_section == "Title":
                     sections[current_section] += line + "\n"
+                elif current_section == "Images Path":
+                    sections[current_section] += line
                 elif "<br><br>" in line:
                     sections[current_section] += line + "\n"
                 else:
                     sections[current_section] += line + "<br><br>\n"
     
-    image_path = sections["Images Path"]
+    image_path = "../"+sections["Images Path"]
     
     return sections, image_path
 
 def generate_image_filename(image_path, section_name):
     # Convert section name to lowercase and replace spaces with underscores
-    return os.path.join(image_path, section_name.lower().replace(" ", "_") + ".png")
+    return image_path + section_name.lower().replace(" ", "_") + ".png"
 
 def generate_main_image_filename(project_title, image_path):
     # Convert project title to lowercase and replace spaces with underscores, and append showcase
-    return os.path.join(image_path, project_title.lower().replace(" ", "_") + "_showcase.png")
+    return image_path + project_title.lower().replace(" ", "_") + "_showcase.png"
 
 def generate_html(sections, output_filename, image_path):
     project_title = sections.get("Title", "Unnamed Project").split(".")[0]
@@ -51,13 +53,13 @@ def generate_html(sections, output_filename, image_path):
 </head>
 <body>
     <section class="hero">
-        <a href="javascript:history.back()" class="back-button"><img src="images/icons/arrow_back_white.png"></a>
-        <img src="{main_image_filename}" alt="Project Main Image">
+        <a href="javascript:history.back()" class="back-button"><img src="../images/icons/arrow_back_white.png"></a>
+        <img src="{main_image_filename}" alt="{project_title} Main Image">
         <header>
             <h1 class="font-size-1">{project_title}</h1>
             <p class="font-size-5">{sections.get("Overview", "")}</p>
         </header>
-        <img src="images/decorative-line-white.png" class="decorative-line">
+        <img src="../images/decorative-line-white.png" class="decorative-line">
     </section>
 
     <main class="projects">
@@ -96,11 +98,29 @@ def generate_html(sections, output_filename, image_path):
             section_count += 1
     
     html_content += """
+        <a href="../all_projects.html" class="font-size-4"><h3>See more projects 🡪</h3></a>
         </section>
     </main>
 
+    <section class="contact">
+        <hr>
+        <article>
+            <section class="contact-mail-section">
+                <h2 class="font-size-4">Contact me</h2>
+                <p class="font-size-5">E-mail: <a href="mailto:adrianrusin100@gmail.com" target="_blank" class="email-text">adrianrusin100@gmail.com</a></p>
+            </section>
+            <div></div>
+            <nav>
+                <a href="mailto:adrianrusin100@gmail.com" target="_blank" class="email-icon contact-nav"></a>
+                <a href="https://www.linkedin.com/in/adrian-rusin/" target="_blank" class="linkedin-icon contact-nav"></a>
+                <a href="https://www.fiverr.com/sellers/innarq07" target="_blank" class="fiverr-icon contact-nav"></a>
+            </nav>
+        </article>
+        <hr>
+    </section>
+
     <footer>
-        <p class="font-size-5">©2025 Designed and developed by You</p>
+        <p class="font-size-6">©2025 Designed and developed by <a href="../index.html" class="name-in-footer">Adrian Rusin</a></p>
     </footer>
 </body>
 </html>"""

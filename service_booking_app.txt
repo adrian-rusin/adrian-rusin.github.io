@@ -1,40 +1,40 @@
-Title:  
-Time To – Service Booking App
+Title:
+Service Booking App
 
-Overview:  
+Overview:
 Time To is a Flutter-based mobile application that enables users to book services through a simple and intuitive interface.<br><br>
 The app was developed as a mobile version of an existing web platform, requiring robust API integration, bilingual support, and real-time notification handling.<br><br>
 This project enhanced my experience in building production-grade apps with user-focused features, seamless backend connectivity, and clean UI/UX workflows.<br><br>
 
-Images Path:  
-images/project-images/time-to-service-booking-app/
+Images Path:
+images/project-images/service-booking-app/
 
-REST API Integration:  
+REST API Integration:
 <strong>Integrated RESTful APIs</strong> using Flutter’s built-in <code>http</code> package for secure and efficient communication with the backend.<br><br>
 Handled user authentication, service booking, and data updates through <strong>well-structured HTTP requests</strong>.<br><br>
 Collaborated with the client to test endpoints and ensure accurate request/response handling.<br><br>
 
-Secure Authentication & Account Management:  
+Secure Authentication & Account Management:
 Implemented <strong>JWT-based authentication</strong> for secure login and session management.<br><br>
 Built complete authentication flows including <strong>sign-up, login, logout, password reset, and profile editing</strong>.<br><br>
 Used <strong>SharedPreferences</strong> to persist user sessions locally for a smoother experience.<br><br>
 
-Service Booking System:  
+Service Booking System:
 Created a <strong>dynamic booking interface</strong> allowing users to schedule services, track statuses, and receive updates.<br><br>
 Integrated booking logic with backend API to ensure real-time updates and accurate appointment handling.<br><br>
 Designed with an emphasis on <strong>clarity and ease of use</strong> for non-technical users.<br><br>
 
-Bilingual Support (Internationalization):  
+Bilingual Support (Internationalization):
 Used Flutter’s <strong>intl package</strong> to implement language switching and support for multiple locales.<br><br>
 Worked with the client to ensure accurate translations and layout adaptations for both languages.<br><br>
 Added <strong>in-app language toggle</strong> to allow real-time switching without app restart.<br><br>
 
-Push Notifications with Firebase:  
+Push Notifications with Firebase:
 Configured <strong>Firebase Cloud Messaging (FCM)</strong> for real-time push notifications.<br><br>
 Handled notifications in both <strong>foreground and background</strong> states with custom routing to relevant screens.<br><br>
 Tested thoroughly to ensure <strong>reliable delivery</strong> across platforms.<br><br>
 
-UI/UX Design & Client Collaboration:  
-Translated <strong>Figma wireframes</strong> into responsive, clean UIs using Flutter widgets.<br><br>
+UI/UX Design & Client Collaboration:
+Created responsive, clean UIs using Flutter widgets.<br><br>
 Worked closely with the client to iterate on design and usability improvements.<br><br>
 Focused on <strong>accessibility and visual clarity</strong> across all user flows.<br><br>

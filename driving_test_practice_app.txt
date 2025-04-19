@@ -1,0 +1,35 @@
+Title:
+Exam Routes – Driving Test Practice App
+
+Overview:
+Exam Routes is a feature-rich driving test preparation app designed to help users practice using real-world driving test routes.<br><br>
+I joined the project to modernize the codebase, implement a full UI overhaul based on provided Figma designs, fix bugs, and add new features like a quiz system with Firebase integration.<br><br>
+This project strengthened my experience in working with existing designs, app refactoring, Firebase backend integration, and maintaining large-scale apps.<br><br>
+
+Images Path:
+images/project-images/exam-routes-driving-test-app/
+
+UI Implementation from Figma Designs:
+Recreated over <strong>25 screens</strong> in Flutter based on detailed <strong>client-provided Figma designs</strong>.<br><br>
+Focused on <strong>pixel-perfect implementation</strong>, responsiveness, and design accuracy across multiple device sizes.<br><br>
+Used Flutter’s widget system to build <strong>modular and reusable UI components</strong> for faster iteration and clean structure.<br><br>
+
+Codebase Modernization:
+Upgraded the app to the <strong>latest Flutter stable version</strong> to ensure performance and compatibility.<br><br>
+Refactored legacy code and replaced deprecated packages, improving code readability and maintainability.<br><br>
+Improved <strong>overall performance, stability, and error handling</strong> across the app.<br><br>
+
+Quiz Feature with Firebase Integration:
+Developed a new quiz module using <strong>Firebase Firestore and Authentication</strong>.<br><br>
+Enabled users to <strong>filter quizzes by category</strong>, take timed quizzes, view results, and track progress tied to their profiles.<br><br>
+Used real-time syncing and secure data storage to ensure a smooth and reliable experience.<br><br>
+
+Admin Panel Enhancements (Web):
+Refactored the existing <strong>web-based admin panel</strong> codebase to bring it up to modern standards.<br><br>
+Added quiz management features such as <strong>creating, editing, and organizing quizzes</strong>.<br><br>
+Streamlined UI for better administrator experience and faster workflow.<br><br>
+
+Bug Fixes & Stability Improvements:
+Identified and resolved <strong>critical crash bugs and persistent logic errors</strong> in the app.<br><br>
+Improved <strong>UI responsiveness, state handling, and navigation flows</strong>.<br><br>
+Ensured a more reliable and polished experience for both users and administrators.<br><br>
