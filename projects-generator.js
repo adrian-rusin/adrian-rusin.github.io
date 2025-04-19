@@ -1,12 +1,12 @@
 const projects = [
     {
-        img: "images/projects-images/exam-routes-driving-test-app/google-maps-api-app/exam_routes_driving_test_practice_app_showcase.png",
+        img: "images/project-images/exam-routes-driving-test-app/exam_routes_driving_test_practice_app_showcase.png",
         title: "Exam Routes – Driving Test Practice App",
         description: "Exam Routes is a feature-rich driving test preparation app designed to help users practice using real-world driving test routes.<br><br>I joined the project to modernize the codebase, implement a full UI overhaul based on provided Figma designs, fix bugs, and add new features like a quiz system with Firebase integration.<br><br>This project strengthened my experience in working with existing designs, app refactoring, Firebase backend integration, and maintaining large-scale apps.",
         buttonLink: "projects_screens/driving_test_practice_app.html"
     },
     {
-        img: "images/projects-images/chat-app/chat_app.png",
+        img: "images/project-images/service-booking-app/service_booking_app_showcase.png",
         title: "Service Booking App",
         description: "Time To is a Flutter-based mobile application that enables users to book services through a simple and intuitive interface.<br><br>The app was developed as a mobile version of an existing web platform, requiring robust API integration, bilingual support, and real-time notification handling.<br><br>This project enhanced my experience in building production-grade apps with user-focused features, seamless backend connectivity, and clean UI/UX workflows.",
         buttonLink: "projects_screens/service_booking_app.html"
