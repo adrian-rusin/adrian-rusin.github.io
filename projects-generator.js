@@ -1,22 +1,22 @@
 const projects = [
     {
-        img: "images/projects-images/google-maps-api-app/google_maps_api_app.png",
-        title: "Google Map API App",
-        description: "Food Nearby is a Flutter-based mobile application that helps users discover nearby restaurants using the Google Maps and Places APIs.<br><br>The app retrieves a list of restaurants directly from Google Places, displaying them on an interactive map.<br><br>This project served as a hands-on opportunity to refine my skills in Flutter development, state management, and location-based services.",
-        buttonLink: "projects_screens/google_maps_api_app.html"
+        img: "images/projects-images/exam-routes-driving-test-app/google-maps-api-app/exam_routes_driving_test_practice_app_showcase.png",
+        title: "Exam Routes – Driving Test Practice App",
+        description: "Exam Routes is a feature-rich driving test preparation app designed to help users practice using real-world driving test routes.<br><br>I joined the project to modernize the codebase, implement a full UI overhaul based on provided Figma designs, fix bugs, and add new features like a quiz system with Firebase integration.<br><br>This project strengthened my experience in working with existing designs, app refactoring, Firebase backend integration, and maintaining large-scale apps.",
+        buttonLink: "projects_screens/driving_test_practice_app.html"
     },
     {
         img: "images/projects-images/chat-app/chat_app.png",
-        title: "Chat App",
-        description: "Quick Message is a Flutter-based real-time chat application designed to provide instant messaging, voice and video calls, and user profile management.<br><br>Built using Firebase for backend support, it offers secure authentication, real-time messaging, and friend search functionality.<br><br>This project was a key learning experience for integrating Firebase services and handling real-time data efficiently in Flutter.",
-        buttonLink: "projects_screens/chat_app.html"
-    },
-    {
-        img: "images/projects-images/google-maps-api-app/google_maps_api_app.png",
-        title: "Yet Another App",
-        description: "A powerful solution for everyday WWWWWWWWW WWWWWWWW WWWWWW aaaaaa aaaaaaaaa aaaaaa aaaa aaaaa aaa aaaaaa aaaa aaaaaaaaaaa aaaaaaawwwww wwwww wwwwwwwww wwwwwww wwwwwWWW WWWWW WWWWWWWWWWW WWWWWW WWWW WWWWWWWWW WWWWWWW WWWWWWW WWWWWWWWW WWWWWWWWWWWWWWWWW WWWWWWWWWWW WWWWWWWWW WWWWWW WWWWWWWWWWW WWWWWWWWWW WWWWWW WWWWWWWWWWW WWWWWWWWWWWWW WWWW WWWWWWW WWWWWWWW WWW WWWWWWWW WWWWWW aaaaaaaaa aaaaaa aaaaaaaaaa aaaaaaaa aaaaaa aaaaaaaa aaaaaaa aaaaaaawww wwwwwww wwww wwwwwwwwwwww wwwww WWWWWWWW WWWWWWW WWWWWWWWWW WWWW WWWWWWWW WWWWWWWW WWWWWWWWWWW WWWWW WWWWWWWWWW WWWWWWW WWWWWWWWWWW WWWWWWWWWW WWWWW WWWWWWWWWWWWWWWWW WWWWWWWWWW WWWWWWWWWWWWWW WWWWWWWWW WWWWW WWWWW WWWWWWWWW WWWW WWWWWWWWWWWWWW aaaaaaaaaa aaaaa aaaaaaaaaa aaaaaaaa aaaaaa aaaaaaaa aaaaaaa aaaaa aawwwwwwwwww wwwwwwwwwwwwwwww wwwwwWW WWWWWW WWWWWWWWW WWWWWWWW WWWW WWWWWW WWWWWWWWWW WWWWWWW WWWWWWWWW WWWWWWWWWWW WWWWWW WWWWW WWWWWW WWWWWW WWWWWWWWW WWWWWWWW WWWWWWW WWWWWWWWWWWW WWWWWWWWWW WWWWWW WWWWWWW WWWWW WWWWWWWWWW WWWWWWWW WWW WWWWWWWWWWWs.<br><br>Developed using Flutter and integrated with Firebase for real-time data.",
+        title: "Service Booking App",
+        description: "Time To is a Flutter-based mobile application that enables users to book services through a simple and intuitive interface.<br><br>The app was developed as a mobile version of an existing web platform, requiring robust API integration, bilingual support, and real-time notification handling.<br><br>This project enhanced my experience in building production-grade apps with user-focused features, seamless backend connectivity, and clean UI/UX workflows.",
         buttonLink: "projects_screens/service_booking_app.html"
-    }
+    },
+    // {
+    //     img: "images/projects-images/google-maps-api-app/google_maps_api_app.png",
+    //     title: "Yet Another App",
+    //     description: "A powerful solution for everyday WWWWWWWWW WWWWWWWW WWWWWW aaaaaa aaaaaaaaa aaaaaa aaaa aaaaa aaa aaaaaa aaaa aaaaaaaaaaa aaaaaaawwwww wwwww wwwwwwwww wwwwwww wwwwwWWW WWWWW WWWWWWWWWWW WWWWWW WWWW WWWWWWWWW WWWWWWW WWWWWWW WWWWWWWWW WWWWWWWWWWWWWWWWW WWWWWWWWWWW WWWWWWWWW WWWWWW WWWWWWWWWWW WWWWWWWWWW WWWWWW WWWWWWWWWWW WWWWWWWWWWWWW WWWW WWWWWWW WWWWWWWW WWW WWWWWWWW WWWWWW aaaaaaaaa aaaaaa aaaaaaaaaa aaaaaaaa aaaaaa aaaaaaaa aaaaaaa aaaaaaawww wwwwwww wwww wwwwwwwwwwww wwwww WWWWWWWW WWWWWWW WWWWWWWWWW WWWW WWWWWWWW WWWWWWWW WWWWWWWWWWW WWWWW WWWWWWWWWW WWWWWWW WWWWWWWWWWW WWWWWWWWWW WWWWW WWWWWWWWWWWWWWWWW WWWWWWWWWW WWWWWWWWWWWWWW WWWWWWWWW WWWWW WWWWW WWWWWWWWW WWWW WWWWWWWWWWWWWW aaaaaaaaaa aaaaa aaaaaaaaaa aaaaaaaa aaaaaa aaaaaaaa aaaaaaa aaaaa aawwwwwwwwww wwwwwwwwwwwwwwww wwwwwWW WWWWWW WWWWWWWWW WWWWWWWW WWWW WWWWWW WWWWWWWWWW WWWWWWW WWWWWWWWW WWWWWWWWWWW WWWWWW WWWWW WWWWWW WWWWWW WWWWWWWWW WWWWWWWW WWWWWWW WWWWWWWWWWWW WWWWWWWWWW WWWWWW WWWWWWW WWWWW WWWWWWWWWW WWWWWWWW WWW WWWWWWWWWWWs.<br><br>Developed using Flutter and integrated with Firebase for real-time data.",
+    //     buttonLink: "projects_screens/service_booking_app.html"
+    // }
 ];
 
 const projectsContainer = document.getElementById('projects-container');

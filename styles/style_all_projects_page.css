@@ -56,9 +56,16 @@ h1 {
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+.project a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
 .project img {
     max-width: 70%;
-    margin: 0 auto;
     height: auto;
     border-radius: 8px;
 }
@@ -66,11 +73,13 @@ h1 {
 .project h3 {
     font-size: 18px;
     margin: 10px 0;
+    text-align: left;
 }
 
 .project p {
     font-size: 14px;
     line-height: 1.5;
+    text-align: left;
 }
 
 @media only screen and (max-width: 600px) {
