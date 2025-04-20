@@ -125,7 +125,7 @@
 
     .contact-nav {
         height: 40px;
-        width: 40px;
+        width: 40px !important;
         padding: 0 5px;
         background-size: contain;
     }
