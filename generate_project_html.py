@@ -46,7 +46,7 @@ def generate_html(sections, output_filename, image_path):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{project_title}</title>
+    <title>{project_title} - Adrian Rusin</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/style_mobile.css">
     <link rel="stylesheet" href="../styles/style_project_page.css">
@@ -122,6 +122,8 @@ def generate_html(sections, output_filename, image_path):
     <footer>
         <p class="font-size-6">©2025 Designed and developed by <a href="../index.html" class="name-in-footer">Adrian Rusin</a></p>
     </footer>
+    
+    <script src="../changing_placement_of_images.js"></script>
 </body>
 </html>"""
     

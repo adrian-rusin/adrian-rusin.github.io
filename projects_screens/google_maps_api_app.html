@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flutter Developer Portfolio</title>
+    <title>Google Maps API App - Adrian Rusin</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/style_mobile.css">
     <link rel="stylesheet" href="../styles/style_project_page.css">
@@ -31,7 +31,7 @@
         <h2 class="font-size-1">App description</h2>
         <section id="projects-container">
             <article class="project-element">
-                <img src="../images/projects-images/google-maps-api-app/google_maps_api_integration.png" alt="Google Maps API Integration image">
+                <img src="../images/project-images/google-maps-api-app/google_maps_api_integration.png" alt="Google Maps API Integration image">
                 <span style="width: 50px;"></span>
                 <article>
                     <section>
@@ -60,10 +60,10 @@
                     </section>
                 </article>
                 <span style="width: 50px;"></span>
-                <img src="../images/projects-images/google-maps-api-app/location-based_search_and_filtering.png" alt="Location-Based Search & Filtering image">
+                <img src="../images/project-images/google-maps-api-app/location-based_search_and_filtering.png" alt="Location-Based Search & Filtering image">
             </article>
             <article class="project-element">
-                <img src="../images/projects-images/google-maps-api-app/state_management_with_provider.png" alt="State Management with Provider image">
+                <img src="../images/project-images/google-maps-api-app/state_management_with_provider.png" alt="State Management with Provider image">
                 <span style="width: 50px;"></span>
                 <article>
                     <section>
@@ -103,53 +103,6 @@
         <p class="font-size-6">©2025 Designed and developed by <a href="../index.html" class="name-in-footer">Adrian Rusin</a></p>
     </footer>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            function adjustProjectElements() {
-                const elements = document.querySelectorAll(".project-element");
-        
-                elements.forEach((element, index) => {
-                    const img = element.querySelector("img");
-                    const textContainer = element.querySelector("article"); // The article wrapping the text
-                    const spacer = element.querySelector("span"); // The spacer between text and image
-        
-                    if (!img || !textContainer) return;
-        
-                    if (window.innerWidth <= 880) {
-                        // Move image above text (before the textContainer)
-                        if (img.nextElementSibling !== textContainer) {
-                            element.insertBefore(img, textContainer);
-                        }
-        
-                        // Ensure spacer is removed for mobile view
-                        if (spacer) spacer.style.display = "none";
-                    } else {
-                        // Restore alternating layout for larger screens
-                        if (index % 2 === 0) {
-                            // Even index: Image on left
-                            if (img.nextElementSibling !== spacer) {
-                                element.insertBefore(img, spacer);
-                            }
-                        } else {
-                            // Odd index: Image on right
-                            if (textContainer.nextElementSibling !== spacer) {
-                                element.insertBefore(spacer, textContainer);
-                                element.appendChild(img);
-                            }
-                        }
-        
-                        // Restore spacer visibility for larger screens
-                        if (spacer) spacer.style.display = "inline-block";
-                    }
-                });
-            }
-        
-            // Run on page load and window resize
-            adjustProjectElements();
-            window.addEventListener("resize", adjustProjectElements);
-        });
-        
-        
-    </script>
+    <script src="../changing_placement_of_images.js"></script>
 </body>
 </html>
