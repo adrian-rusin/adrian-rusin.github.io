@@ -125,9 +125,12 @@
 
     .contact-nav {
         height: 40px;
-        width: 40px !important;
+        width: 40px;
         padding: 0 5px;
         background-size: contain;
+    }
+    .email-icon {
+        width: 45px !important;
     }
 
     .project-element>img {
