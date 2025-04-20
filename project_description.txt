@@ -9,6 +9,9 @@ This project served as a hands-on opportunity to refine my skills in Flutter dev
 Images Path:
 images/project-images/google-maps-api-app/
 
+Description:
+Some description
+
 Google Maps API Integration:
 <strong>Integrated Google Maps and Places APIs</strong> to fetch and display restaurant locations.<br><br>
 Implemented <strong>interactive map markers</strong> to visualize restaurant locations.<br><br>

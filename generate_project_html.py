@@ -18,7 +18,7 @@ def parse_content(content):
             else:
                 if current_section == "Title":
                     sections[current_section] += line + "\n"
-                elif current_section == "Images Path":
+                elif current_section == "Images Path" or current_section == "Description":
                     sections[current_section] += line
                 elif "<br><br>" in line:
                     sections[current_section] += line + "\n"
@@ -47,6 +47,7 @@ def generate_html(sections, output_filename, image_path):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{project_title} - Adrian Rusin</title>
+    <meta name="description" content="{sections.get("Description", "")}"/>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/style_mobile.css">
     <link rel="stylesheet" href="../styles/style_project_page.css">
