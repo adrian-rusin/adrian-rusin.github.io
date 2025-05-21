@@ -11,6 +11,12 @@ const projects = [
         description: "Time To is a Flutter-based mobile application that enables users to book services through a simple and intuitive interface.<br><br>The app was developed as a mobile version of an existing web platform, requiring robust API integration, bilingual support, and real-time notification handling.<br><br>This project enhanced my experience in building production-grade apps with user-focused features, seamless backend connectivity, and clean UI/UX workflows.",
         buttonLink: "projects_screens/service_booking_app.html"
     },
+    {
+        img: "images/project-images/tripbuddy/tripbuddy_webview_background_location_tracking_app_showcase.png",
+        title: "TripBuddy – WebView Background Location Tracking App",
+        description: "TripBuddy is a cross-platform Flutter application designed to run efficiently on Android and iOS. It embeds a WebView to display a live map interface from maproute.com and integrates advanced location tracking using a JavaScript bridge.<br><br>This project focused on enabling real-time location updates even when the app is in the background or the screen is off—while ensuring battery and processor efficiency.<br><br>I also supported the iOS adaptation and assisted with the deployment of the updated TripBuddy app to the App Store.<br><br>",
+        buttonLink: "projects_screens/webview_background_location_tracking_app.html"
+    },
     // {
     //     img: "images/projects-images/google-maps-api-app/google_maps_api_app.png",
     //     title: "Yet Another App",
