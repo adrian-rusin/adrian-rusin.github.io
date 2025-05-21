@@ -101,7 +101,7 @@ def generate_html(sections, output_filename, image_path):
             section_count += 1
     
     html_content += """
-        <a href="../all_projects.html" class="font-size-4"><h3>See more projects 🡪</h3></a>
+        <a href="../all_projects.html" class="font-size-4"><h3>See more projects <img src="images/icons/arrow_back.png" style="width: 20px; transform: rotate(180deg);"></h3></a>
         </section>
     </main>
 
