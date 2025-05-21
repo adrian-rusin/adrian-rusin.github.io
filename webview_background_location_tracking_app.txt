@@ -1,0 +1,29 @@
+Title:
+TripBuddy – WebView Background Location Tracking App
+
+Overview:
+TripBuddy is a cross-platform Flutter application designed to run efficiently on Android and iOS. It embeds a WebView to display a live map interface from maproute.com and integrates advanced location tracking using a JavaScript bridge.<br><br>
+This project focused on enabling real-time location updates even when the app is in the background or the screen is off—while ensuring battery and processor efficiency.<br><br>
+I also supported the iOS adaptation and assisted with the deployment of the updated TripBuddy app to the App Store.<br><br>
+
+Images Path:
+images/project-images/tripbuddy/
+
+Background Location Tracking Integration:
+Implemented <strong>real-time GPS tracking</strong> using Flutter's background service capabilities.<br><br>
+Location data was passed from the native background service to the WebView via a <strong>JavaScript API</strong>, allowing continuous updates within the map UI.<br><br>
+Ensured compatibility with <strong>background execution modes</strong> on both Android and iOS, including screen-off operation.<br><br>
+
+WebView & JavaScript Bridge:
+Used <strong>webview_flutter</strong> to display the TripBuddy web app (maproute.com/trip.app).<br><br>
+Injected <strong>custom JavaScript objects</strong> into the WebView for seamless communication with the client’s frontend logic.<br><br>
+Handled precise data transfer between native location services and WebView for real-time updates.<br><br>
+
+Cross-Platform Optimization:
+Ensured <strong>battery-efficient and low-CPU usage</strong> operation through careful code optimization and throttling of location requests.<br><br>
+Tested and refined for <strong>performance, stability, and power consumption</strong> on both iOS and Android platforms.<br><br>
+
+Deployment & Support:
+Supported the client with <strong>adjusting the app for iOS</strong> platform requirements.<br><br>
+
+Following the app’s submission, I implemented an additional feature based on observed user behavior — a <strong>network connectivity check</strong> that verifies internet access by fetching the MapRoute app. This enhancement improved reliability in real-world usage scenarios.<br><br>

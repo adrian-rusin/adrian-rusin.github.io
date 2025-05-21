@@ -51,6 +51,8 @@ def generate_html(sections, output_filename, image_path):
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/style_mobile.css">
     <link rel="stylesheet" href="../styles/style_project_page.css">
+    
+    <link rel="icon" href="../images/icons/favicon.ico">
 </head>
 <body>
     <section class="hero">
