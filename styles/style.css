@@ -200,8 +200,9 @@ strong {
 .about>article>p {
     padding: 10px 0;
 }
-.about>aside>img {
+.adrian-rusin-flutter-dev-profile-picture {
     width: 175px;
+    border-radius: 32px;
 }
 
 
