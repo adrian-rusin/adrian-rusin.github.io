@@ -1,5 +1,11 @@
 const projects = [
     {
+        img: "images/project-images/social-media_app_haikuary/social-media_app_haikuary_showcase.png",
+        title: "Haikuary – Flutter Social App Delivered from Development to Release",
+        description: "Haikuary is a cross-platform Flutter app for creating, sharing, and discovering 5-7-5 haiku paired with images. Built end-to-end and shipped to both the App Store and Google Play, the app blends micro-poetry with simple social features to create a calm, creative mobile experience.<br><br>I owned the project from implementation to release: frontend in Flutter, backend architecture with Firebase, custom Cloud Functions for automation and data migration, UI/UX implementation per client guidelines, and store deployment.<br><br>",
+        buttonLink: "projects_screens/social-media_haiku_posting_app_build_from_beginning_to_publishing.html"
+    },
+    {
         img: "images/project-images/exam-routes-driving-test-app/exam_routes_driving_test_practice_app_showcase.png",
         title: "Exam Routes – Driving Test Practice App",
         description: "Exam Routes is a feature-rich driving test preparation app designed to help users practice using real-world driving test routes.<br><br>I joined the project to modernize the codebase, implement a full UI overhaul based on provided Figma designs, fix bugs, and add new features like a quiz system with Firebase integration.<br><br>This project strengthened my experience in working with existing designs, app refactoring, Firebase backend integration, and maintaining large-scale apps.",

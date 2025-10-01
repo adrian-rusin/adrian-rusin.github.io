@@ -1,0 +1,37 @@
+Title:
+Haikuary – Haiku Micro-Journal (5-7-5) Social App
+
+Overview:
+Haikuary is a cross-platform Flutter app for creating, sharing, and discovering 5-7-5 haiku paired with images. Built end-to-end and shipped to both the App Store and Google Play, the app blends micro-poetry with simple social features to create a calm, creative mobile experience.<br><br>
+I owned the project from implementation to release: frontend in Flutter, backend architecture with Firebase, custom Cloud Functions for automation and data migration, UI/UX implementation per client guidelines, and store deployment.<br><br>
+
+Images Path:
+images/project-images/social-media_app_haikuary/
+
+Core Features:
+<strong>User accounts & profiles:</strong> Sign up / log in, password reset, profile editing, view other profiles, follow/unfollow, and secure account deletion flow.<br><br>
+<strong>Haiku creation:</strong> Compose posts following the 5-7-5 syllable structure, attach images (camera/gallery), crop before publish, and add tags/labels.<br><br>
+<strong>Social interactions:</strong> Home feed, individual post view, like, comment, bookmark, followers/following lists, and an “Inspire” action for creative responses or reshares.<br><br>
+<strong>Moderation & admin:</strong> Report content, admin moderation tools, and content management interfaces for safe community operation.<br><br>
+
+Backend & Technical Implementation:
+Built on <strong>Firebase</strong> (Authentication, Firestore, Cloud Storage) for realtime data and media handling.<br><br>
+Implemented <strong>Cloud Functions</strong> for backend automation, including import scripts to migrate legacy user accounts and haiku content.<br><br>
+Deployed a secure <strong>account deletion page</strong> on Firebase Hosting to meet data-handling requirements.<br><br>
+Optimized Firestore queries, indexing, and storage rules for efficient reads/writes and predictable cost behavior.<br><br>
+
+UI/UX & Design Implementation:
+Translated client guidelines into a clean, poetry-first UI using principles learned from a ZTM UI/UX course — emphasizing readability, typographic scale, and minimalism.<br><br>
+Built pixel-accurate, responsive screens in Flutter with attention to spacing, accessibility, and fast interactions to make reading and composing haiku delightful.<br><br>
+
+Performance & Optimization:
+Prioritized low CPU and battery use by throttling listeners, batching writes, lazy-loading feeds, and optimizing image handling (compression & caching).<br><br>
+Performed device testing on a range of hardware to ensure smooth performance and consistent UX across iOS and Android.<br><br>
+
+Result & Outcome:
+Delivered a production-ready social micro-journal app that celebrates haiku and imagery — fully deployed to both App Store and Google Play. The app includes full social features, secure auth and storage, legacy data migration, and admin moderation tools, implemented with maintainability and scalability in mind.<br><br>
+
+Skills & Deliverables:
+- Role: Full-stack Flutter developer & UI/UX implementer — full project ownership from development to store release.<br><br>
+- Tech: Flutter, Dart, Firebase (Auth, Firestore, Storage, Hosting), Cloud Functions, image cropping libraries, analytics & monitoring tools.<br><br>
+- Deliverables: cross-platform mobile app (iOS & Android), Cloud Functions for import & automation, account deletion page on Firebase Hosting, UI/UX implementation per client guidelines, App Store & Play Store deployment.<br><br>
